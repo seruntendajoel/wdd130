@@ -1,0 +1,61 @@
+header {
+    background-color: rgb(67, 68, 69);
+    padding: 10px 0;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+body {
+    display: grid;
+    place-items: initial;
+    justify-content: center;
+    height: 100vh;
+}
+
+picture {
+    width: 0;
+    height: 0;
+}
+
+section {
+    background-color: rgb(217, 226, 234);
+    display: block;
+    border-top: 1rem;
+    padding: 10px;
+}
+
+section p {
+    margin: 10px;
+}
+
+footer {
+    background-color: rgb(71, 68, 68);
+}
+
+h2 {
+    border-bottom: 1px solid black;
+}
+
+h1 {
+    justify-content: center;
+    margin: 10px;
+}
+
+p {
+    color: white;
+    font-size: larger;
+    font-display: fallback;
+}
+
+.temple {
+    color: black;
+}
+
+#Joel {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.dedication {
+    color: black;
+}
