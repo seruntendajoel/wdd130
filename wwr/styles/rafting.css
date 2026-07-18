@@ -5,8 +5,9 @@
     --accent-color2: #e9c46a;
     --heading-font: "Times New Roman" "Georgia" serif;
     --body-font: Arial, Helvetica, sans-serif;
-    background-color: var(--background-color);
-   color: var(--text-color);
+    --background-color: var(--background-color);
+   --color: var(--text-color);
+   --var: (variable-name);
 }
 * {
     margin: 0;
