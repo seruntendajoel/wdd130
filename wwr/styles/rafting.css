@@ -5,6 +5,8 @@
     --accent-color2: #e9c46a;
     --heading-font: "Times New Roman" "Georgia" serif;
     --body-font: Arial, Helvetica, sans-serif;
+    background-color: var(--background-color);
+   color: var(--text-color);
 }
 * {
     margin: 0;
@@ -14,8 +16,6 @@
 body {
     font-family: 'Times New Roman', Times, serif;
     color: rgb(27, 29, 31);
-    background-color: var(--background-color);
-   color: var(--text-color);
 }
 header, main, footer {
     width: 840px;
