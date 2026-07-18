@@ -1,5 +1,6 @@
 :root {
     --primary-color: #055a05;
+    --accent1-color: #264653;
 }
 * {
     margin: 0;
@@ -43,7 +44,7 @@ h1 {
     background-color: rgb(80, 95, 138);
     color: #fff;
 }
-article {
+.hero article {
     position: absolute;
     font-style: italic;
 }
