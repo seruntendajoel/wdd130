@@ -2,9 +2,6 @@
     --primary-color: #055a05;
     --secondary-color: #f4a261;
     --accent1-color: #264653;
-    --accent-color2: #e9c46a;
-    --heading-font: "Times New Roman" "Georgia" serif;
-    --body-font: Arial, Helvetica, sans-serif;
 }
 * {
     margin: 0;
@@ -46,7 +43,7 @@ h1 {
     text-align: center;
     opacity: 0.8;
     background-color: rgb(80, 95, 138);
-    color: #fff;
+    color: var(--secondary-color)
 }
 .hero article {
     position: absolute;
