@@ -5,9 +5,6 @@
     --accent-color2: #e9c46a;
     --heading-font: "Times New Roman" "Georgia" serif;
     --body-font: Arial, Helvetica, sans-serif;
-    --background-color: var(--background-color);
-   --color: var(--text-color);
-   --var: (variable-name);
 }
 * {
     margin: 0;
@@ -16,7 +13,7 @@
 }
 body {
     font-family: 'Times New Roman', Times, serif;
-    color: rgb(27, 29, 31);
+    color: var(--accent1-color)
 }
 header, main, footer {
     width: 840px;
@@ -24,7 +21,7 @@ header, main, footer {
 }
 h1, h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: blueviolet;
+    color: var(--primary-color)
 }
 nav, section, p, article {
     margin: 16px;
@@ -56,7 +53,6 @@ h1 {
     font-style: italic;
 }
 
-.hero article image {
+.hero article img {
     float: right;
-    width: 400px;
 }
