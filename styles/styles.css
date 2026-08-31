@@ -41,6 +41,12 @@ nav {
     display: block;
 }
 
+nav a {
+    color: brown;
+    padding: 1px;
+    display: block;
+}
+
 h1 {
     color: black;
 }
