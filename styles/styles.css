@@ -12,16 +12,16 @@ aside {
 }
 
 aside img {
-    width: 100px;
+    width: 200px;
     height: auto;
 }
 
 main img {
     width: 150px;
     height: auto;
-    border: 1;
-    padding: 0;
-    box-shadow: none;
+    border: 1px;
+    padding: 1px;
+    box-shadow: inset;
 }
 
 p {
