@@ -1,3 +1,9 @@
+*wildcard {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 main {
     max-width: 250px;
 }
@@ -22,6 +28,7 @@ main img {
     border: 1px;
     padding: 1px;
     box-shadow: inset;
+    float: right;
 }
 
 p {
@@ -35,18 +42,31 @@ footer {
 }
 
 nav {
-    background-color: azure;
+    background-color: rgb(192, 193, 193);
     padding: 0;
     color: antiquewhite;
     display: block;
 }
 
 nav a {
-    color: brown;
+    color: rgb(39, 27, 148);
     padding: 1px;
     display: block;
 }
 
 h1 {
     color: black;
+}
+
+/*Class selectors*/
+.box {
+    margin: 1rem;
+    border: 1px solid;
+    padding: 1rem;
+    background-color: aliceblue;
+    color: black;
+}
+
+h2 {
+    position: absolute;
 }
