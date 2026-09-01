@@ -11,7 +11,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: var(--secondary-color);
+    color: var(--accent2-color);
 }
 
 body {
@@ -72,5 +72,5 @@ article {
 }
 
 .hero article {
-    position: relative;
+    position: absolute;
 }
