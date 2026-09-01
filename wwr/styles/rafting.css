@@ -1,5 +1,12 @@
 :root {
-    color: rgb(61, 62, 62);
+    :root {
+        --primary-color: #055a05;
+        --secondary-color: #f4a261;
+        --accent1-color: #264653;
+        --accent2-color: #e9c46a;
+        --heading-font: "Times New Roman", "Georgia", serif;
+        --body-font: Arial, Helvetica, sans-serif;
+    }
 }
 
 * {
@@ -32,7 +39,7 @@ article {
     padding: 8px;
 }
 
-.social media a {
+nav a {
     text-decoration: none;
 }
 
@@ -59,9 +66,4 @@ h1 {
 
 article {
     position: absolute;
-}
-
-.hero article img {
-    float: right;
-    width: 125px;
 }
