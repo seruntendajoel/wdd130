@@ -45,6 +45,26 @@ h1 {
     --secondary-color: #f4a261;
 }
 
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    left: 2px;
+}
+
 .hero-content {
     display: flex;
     flex-direction: row;
