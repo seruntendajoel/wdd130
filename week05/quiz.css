@@ -4,7 +4,7 @@
 }
 
 main {
-    max-width: 500px;
+    max-width: 500;
     background-color: #555;
     color: #fff;
 }
@@ -25,7 +25,7 @@ input,
 textarea,
 select {
     padding: .75rem;
-    width: 350px
+    width: 350
 }
 
 code {
@@ -36,7 +36,7 @@ code {
 
 .box {
     margin: 1rem;
-    border: 1px solid black;
+    border: 1 solid black;
     padding: 1rem;
 }
 
@@ -46,5 +46,5 @@ button {
     display: block;
     border-radius: .5rem;
     border: 1px solid rgb(0 0 0 / 10%);
-    width: 350px;
+    width: 350;
 }
